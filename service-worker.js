@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/AlpacaGenerator/precache-manifest.8617894c7dbcc70eb865a41ea2b2b39a.js"
+  "/AlpacaGenerator/precache-manifest.5a5ce063a5d5f3d278abfcb8d745ebc2.js"
 );
 
 workbox.clientsClaim();
