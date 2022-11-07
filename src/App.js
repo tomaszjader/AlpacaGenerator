@@ -18,11 +18,15 @@ const App = () => {
   const [ accessories, setAccessories ] = useState(0);
   const [ background, setBackground ] = useState(0);
   return (
-    <Context.Provider value={{ hair, alpacaImage, setalpacaImage, 
-      setHair, neck, setNeck , accessories, setAccessories,
-    buttonToChange, setButtonToChange, ears, 
-    setEars,eyes, setEyes, mouth, setMouth,
-    leg, setLeg, background, setBackground }}>
+    <Context.Provider value={{ 
+      hair, alpacaImage, setalpacaImage, 
+      setHair, neck, setNeck , accessories, 
+      setAccessories,buttonToChange, 
+      setButtonToChange, ears, 
+    setEars,eyes, setEyes, mouth, 
+    setMouth,
+    leg, setLeg, background, 
+    setBackground }}>
       <div className="App">
         <header className='container'>
           <h1>Alpaca Generator</h1>
