@@ -28,7 +28,7 @@ const AlpacaImage = () => {
         const targetEl = downloadRef.current;
         domtoimage.toJpeg(targetEl, { quality: 0.95 }).then((dataUrl) => {
             let link = document.createElement('a');
-            link.download = 'my-image-name.jpeg';
+            link.download = 'alpaca-generator.png';
             link.href = dataUrl;
             link.click();
         });
