@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Accessorize {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+flex-direction: column;
+}
+.Accessorize-bootons{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

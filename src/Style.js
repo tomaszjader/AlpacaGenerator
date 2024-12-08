@@ -44,7 +44,7 @@ const Style = () => {
 const Hair = () => {
     const { hair, setHair } = useContext(Context);
     return (
-        <div>
+        <div className="Accessorize-bootons">
             <Button onClick={() => setHair(0)}>Default</Button>
             <Button onClick={() => setHair(1)}>Bang</Button>
             <Button onClick={() => setHair(2)}>Curls</Button>
@@ -58,7 +58,7 @@ const Hair = () => {
 const Ears = () => {
     const { ears, setEars } = useContext(Context);
     return (
-        <div>
+        <div className="Accessorize-bootons">
             <Button onClick={()=>setEars(0)}>Default</Button>
             <Button onClick={()=>setEars(1)}>Tit-Backward</Button>
             <Button onClick={()=>setEars(2)}>Tit-Forword</Button>
@@ -68,7 +68,7 @@ const Ears = () => {
 const Eyes = () => {
     const { eyes, setEyes } = useContext(Context);
     return (
-        <div>
+        <div className="Accessorize-bootons">
             <Button onClick={()=>{setEyes(0)}}>Default</Button>
             <Button onClick={()=>{setEyes(1)}}>Angry</Button>
             <Button onClick={()=>{setEyes(2)}}>Naughty</Button>
@@ -81,7 +81,7 @@ const Eyes = () => {
 const Mouth = () => {
     const { mouth, setMouth } = useContext(Context);
     return (
-        <div>
+        <div className="Accessorize-bootons">
             <Button onClick={()=>{setMouth(0)}}>Default</Button>
             <Button onClick={()=>{setMouth(1)}}>Astonished</Button>
             <Button onClick={()=>{setMouth(2)}}>Eating</Button>
@@ -93,7 +93,7 @@ const Mouth = () => {
 const Neck = () => {
     const { neck, setNeck } = useContext(Context);
     return (
-        <div>
+        <div className="Accessorize-bootons">
             <Button onClick={()=>{setNeck(0)}}>Default</Button>
             <Button onClick={()=>{setNeck(1)}}>Bend-Backward</Button>
             <Button onClick={()=>{setNeck(2)}}>Bend-Forward</Button>
@@ -104,7 +104,7 @@ const Neck = () => {
 const Leg = () => {
     const { leg, setLeg } = useContext(Context);
     return (
-        <div>
+        <div className="Accessorize-bootons">
             <Button onClick={()=>{setLeg(0)}}>Default</Button>
             <Button onClick={()=>{setLeg(1)}}>Bubble-Tea</Button>
             <Button onClick={()=>{setLeg(2)}}>Cookie</Button>
@@ -117,7 +117,7 @@ const Leg = () => {
 const Accessories = () => {
     const { accessories, setAccessories } = useContext(Context);
     return (
-        <div>
+        <div className="Accessorize-bootons">
             <Button onClick={()=>{setAccessories(0)}}>Earings</Button>
             <Button onClick={()=>{setAccessories(1)}}>Flower</Button>
             <Button onClick={()=>{setAccessories(2)}}>Glasses</Button>
@@ -128,7 +128,7 @@ const Accessories = () => {
 const Background = () => {
     const { background, setBackground } = useContext(Context);
     return (
-        <div>
+        <div className="Accessorize-bootons">
             <Button onClick={()=>{setBackground(0)}} >Earings</Button>
             <Button onClick={()=>{setBackground(1)}} >Flower</Button>
             <Button onClick={()=>{setBackground(2)}} >Glasses</Button>

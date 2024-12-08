@@ -13,6 +13,7 @@ import AlpacaNeck from './AlpacaNeck';
 import AlpacaAccessories from './AlpacaAccessories';
 import AlpacaBackground from './AlpacaBackground';
 import domtoimage from 'dom-to-image';
+import Button from 'react-bootstrap/Button';
 import {
     exportComponentAsJPEG,
     exportComponentAsPDF,
@@ -38,11 +39,13 @@ const AlpacaImage = () => {
             <div style={{
                 display: "flex",
                 alignItems: "center",
-                justifyContent: "center"
+                justifyContent: "center",
+                flexDirection:"column",
+                gap:"20px"
             }}>
 
 
-                <div style={{ position: "relative", width: "400px" }} ref={downloadRef}>
+                <div style={{ position: "relative", width: "400px", height:"400px"}} ref={downloadRef}>
                     <img src={background} className="content"></img>
                     <AlpacaBackground></AlpacaBackground>
 
@@ -59,9 +62,9 @@ const AlpacaImage = () => {
                     <AlpacaEyes></AlpacaEyes>
                     <AlpacaMouth></AlpacaMouth>
                 </div>
-                <button className="download" onClick={handleDownloadImage}>
+                <Button className="download" onClick={handleDownloadImage}>
                     Download
-                </button>
+                </Button>
             </div>
         </div>)
 }
