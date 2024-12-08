@@ -1,18 +1,16 @@
 {
-  "main.css": "/AlpacaGenerator/static/css/main.38032bb7.chunk.css",
-  "main.js": "/AlpacaGenerator/static/js/main.8030f73a.chunk.js",
-  "main.js.map": "/AlpacaGenerator/static/js/main.8030f73a.chunk.js.map",
-  "static/js/1.fbd0924d.chunk.js": "/AlpacaGenerator/static/js/1.fbd0924d.chunk.js",
-  "static/js/1.fbd0924d.chunk.js.map": "/AlpacaGenerator/static/js/1.fbd0924d.chunk.js.map",
-  "static/css/2.dde89f35.chunk.css": "/AlpacaGenerator/static/css/2.dde89f35.chunk.css",
-  "static/js/2.1e2cf2f3.chunk.js": "/AlpacaGenerator/static/js/2.1e2cf2f3.chunk.js",
-  "static/js/2.1e2cf2f3.chunk.js.map": "/AlpacaGenerator/static/js/2.1e2cf2f3.chunk.js.map",
-  "runtime~main.js": "/AlpacaGenerator/static/js/runtime~main.7ec76efe.js",
-  "runtime~main.js.map": "/AlpacaGenerator/static/js/runtime~main.7ec76efe.js.map",
-  "static/media/logo.svg": "/AlpacaGenerator/static/media/logo.06e73328.svg",
-  "static/css/main.38032bb7.chunk.css.map": "/AlpacaGenerator/static/css/main.38032bb7.chunk.css.map",
-  "static/css/2.dde89f35.chunk.css.map": "/AlpacaGenerator/static/css/2.dde89f35.chunk.css.map",
-  "index.html": "/AlpacaGenerator/index.html",
-  "precache-manifest.5a5ce063a5d5f3d278abfcb8d745ebc2.js": "/AlpacaGenerator/precache-manifest.5a5ce063a5d5f3d278abfcb8d745ebc2.js",
-  "service-worker.js": "/AlpacaGenerator/service-worker.js"
+  "files": {
+    "main.css": "/AlpacaGenerator/static/css/main.27327aac.css",
+    "main.js": "/AlpacaGenerator/static/js/main.3f07c2cd.js",
+    "static/js/453.8c139181.chunk.js": "/AlpacaGenerator/static/js/453.8c139181.chunk.js",
+    "static/media/logo.svg": "/AlpacaGenerator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/AlpacaGenerator/index.html",
+    "main.27327aac.css.map": "/AlpacaGenerator/static/css/main.27327aac.css.map",
+    "main.3f07c2cd.js.map": "/AlpacaGenerator/static/js/main.3f07c2cd.js.map",
+    "453.8c139181.chunk.js.map": "/AlpacaGenerator/static/js/453.8c139181.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27327aac.css",
+    "static/js/main.3f07c2cd.js"
+  ]
 }
