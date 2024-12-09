@@ -44,3 +44,8 @@
   margin-right: auto; 
   width: 400px; /* Need a specific value to work */
 }
+@media only screen and (max-width: 410px) {
+  .content {
+    width: 300px;
+  }
+}
