@@ -129,24 +129,24 @@ const Background = () => {
     const { background, setBackground } = useContext(Context);
     return (
         <div className="Accessorize-bootons">
-            <Button onClick={()=>{setBackground(0)}} style={{backgroundColor:"#5596f6", borderColor:"#5596f6"}}>blue50</Button>
-            <Button onClick={()=>{setBackground(1)}} style={{backgroundColor:"#2a7bf4", borderColor:"#2a7bf4"}}>blue60</Button>
-            <Button onClick={()=>{setBackground(2)}} style={{backgroundColor:"#2a5ca7", borderColor:"#2a5ca7"}}>blue70</Button>
-            <Button onClick={()=>{setBackground(3)}} style={{backgroundColor:"#7a8faf", borderColor:"#7a8faf"}}>darkblue30</Button>
-            <Button onClick={()=>{setBackground(4)}} style={{backgroundColor:"#002966", borderColor:"#002966"}}>darkblue50</Button>
-            <Button onClick={()=>{setBackground(5)}} style={{backgroundColor:"#00193d", borderColor:"#00193d"}}>darkblue70</Button>
-            <Button onClick={()=>{setBackground(6)}} style={{backgroundColor:"#9fd966", borderColor:"#9fd966"}}>green50</Button>
-            <Button onClick={()=>{setBackground(7)}} style={{backgroundColor:"#74bd29", borderColor:"#74bd29"}}>green60</Button>
-            <Button onClick={()=>{setBackground(8)}} style={{backgroundColor:"#6a9440", borderColor:"#6a9440"}}>green70</Button>
-            <Button onClick={()=>{setBackground(9)}} style={{backgroundColor:"#cccccc", borderColor:"#cccccc"}}>grey40</Button>
-            <Button onClick={()=>{setBackground(10)}} style={{backgroundColor:"#666666", borderColor:"#666666"}}>grey70</Button>
-            <Button onClick={()=>{setBackground(11)}} style={{backgroundColor:"#333333", borderColor:"#333333"}}>grey80</Button>
-            <Button onClick={()=>{setBackground(12)}} style={{backgroundColor:"#e85e23", borderColor:"#e85e23"}}>red50</Button>
-            <Button onClick={()=>{setBackground(13)}} style={{backgroundColor:"#cb4c15", borderColor:"#cb4c15"}}>red60</Button>
-            <Button onClick={()=>{setBackground(14)}} style={{backgroundColor:"#9f370a", borderColor:"#9f370a"}}>red70</Button>
-            <Button onClick={()=>{setBackground(15)}} style={{backgroundColor:"#fcd33f", borderColor:"#fcd33f"}}>yellow50</Button>
-            <Button onClick={()=>{setBackground(16)}} style={{backgroundColor:"#e6b60d", borderColor:"#e6b60d"}}>yellow60</Button>
-            <Button onClick={()=>{setBackground(17)}} style={{backgroundColor:"#cf8e10", borderColor:"#cf8e10"}}>yellow70</Button>
+            <Button onClick={()=>{setBackground(0)}} style={{backgroundColor:"#5596f6", borderColor:"#5596f6"}}>Blue 50</Button>
+            <Button onClick={()=>{setBackground(1)}} style={{backgroundColor:"#2a7bf4", borderColor:"#2a7bf4"}}>Blue 60</Button>
+            <Button onClick={()=>{setBackground(2)}} style={{backgroundColor:"#2a5ca7", borderColor:"#2a5ca7"}}>Blue 70</Button>
+            <Button onClick={()=>{setBackground(3)}} style={{backgroundColor:"#7a8faf", borderColor:"#7a8faf"}}>Dark blue 30</Button>
+            <Button onClick={()=>{setBackground(4)}} style={{backgroundColor:"#002966", borderColor:"#002966"}}>Dark blue 50</Button>
+            <Button onClick={()=>{setBackground(5)}} style={{backgroundColor:"#00193d", borderColor:"#00193d"}}>Dark blue 70</Button>
+            <Button onClick={()=>{setBackground(6)}} style={{backgroundColor:"#9fd966", borderColor:"#9fd966"}}>Green 50</Button>
+            <Button onClick={()=>{setBackground(7)}} style={{backgroundColor:"#74bd29", borderColor:"#74bd29"}}>Green 60</Button>
+            <Button onClick={()=>{setBackground(8)}} style={{backgroundColor:"#6a9440", borderColor:"#6a9440"}}>Green 70</Button>
+            <Button onClick={()=>{setBackground(9)}} style={{backgroundColor:"#cccccc", borderColor:"#cccccc"}}>Grey 40</Button>
+            <Button onClick={()=>{setBackground(10)}} style={{backgroundColor:"#666666", borderColor:"#666666"}}>Grey 70</Button>
+            <Button onClick={()=>{setBackground(11)}} style={{backgroundColor:"#333333", borderColor:"#333333"}}>Grey 80</Button>
+            <Button onClick={()=>{setBackground(12)}} style={{backgroundColor:"#e85e23", borderColor:"#e85e23"}}>Red 50</Button>
+            <Button onClick={()=>{setBackground(13)}} style={{backgroundColor:"#cb4c15", borderColor:"#cb4c15"}}>Red 60</Button>
+            <Button onClick={()=>{setBackground(14)}} style={{backgroundColor:"#9f370a", borderColor:"#9f370a"}}>Red 70</Button>
+            <Button onClick={()=>{setBackground(15)}} style={{backgroundColor:"#fcd33f", borderColor:"#fcd33f"}}>Yellow 50</Button>
+            <Button onClick={()=>{setBackground(16)}} style={{backgroundColor:"#e6b60d", borderColor:"#e6b60d"}}>Yellow 60</Button>
+            <Button onClick={()=>{setBackground(17)}} style={{backgroundColor:"#cf8e10", borderColor:"#cf8e10"}}>Yellow 70</Button>
             
         </div>
     );
