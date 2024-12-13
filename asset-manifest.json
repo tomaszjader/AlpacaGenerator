@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/AlpacaGenerator/static/css/main.3d786244.css",
+    "main.css": "/AlpacaGenerator/static/css/main.56ccf9d8.css",
     "main.js": "/AlpacaGenerator/static/js/main.530fd61d.js",
     "static/js/453.8c139181.chunk.js": "/AlpacaGenerator/static/js/453.8c139181.chunk.js",
     "static/media/logo.svg": "/AlpacaGenerator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/AlpacaGenerator/index.html",
-    "main.3d786244.css.map": "/AlpacaGenerator/static/css/main.3d786244.css.map",
+    "main.56ccf9d8.css.map": "/AlpacaGenerator/static/css/main.56ccf9d8.css.map",
     "main.530fd61d.js.map": "/AlpacaGenerator/static/js/main.530fd61d.js.map",
     "453.8c139181.chunk.js.map": "/AlpacaGenerator/static/js/453.8c139181.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d786244.css",
+    "static/css/main.56ccf9d8.css",
     "static/js/main.530fd61d.js"
   ]
 }
